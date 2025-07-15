@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:50px;
+    background-color: rgb(10, 2, 18);
+    color:beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo boder{
+    height:50px;
+    width:150px;
+}
+.nav-logo{
+    background-image: url("img.jpg");
+    height:50px;
+    width:150px;
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size:0.75rem;
+    margin-left:15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height:20px;
+    border-radius: 10px;
+}
